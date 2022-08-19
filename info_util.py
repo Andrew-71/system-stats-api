@@ -49,7 +49,8 @@ def get_info():
                               'used': disk_data.used,
                               'free': disk_data.free,
                               'percent': disk_data.percent,
-                              'fs_type': i.fstype})
+                              'fs_type': i.fstype,
+                              'mount_point': i.mountpoint})
 
     return info
 
