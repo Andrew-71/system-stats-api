@@ -20,7 +20,7 @@ options:
 ```
 
 ## Response format
-```json
+```
 {'os': os type (Linux, Darwin or Windows,
  'release': OS Release version, 
  'version': Long form of OS version, 
